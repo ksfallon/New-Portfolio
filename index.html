@@ -8,6 +8,7 @@
         <title>Freelancer - Start Bootstrap Theme</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -30,6 +31,7 @@
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About Me</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href='./assets/resume/Katelin Fallon 2021 CV.pdf' target='_blank'>Resume</a></li>
                     </ul>
                 </div>
             </div>
@@ -40,7 +42,7 @@
                 <!-- Masthead Avatar Image-->
                 <img class="masthead-avatar rounded-circle mb-5" src="assets\Athens pic.jpeg" alt="..." />
                 <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">Start Bootstrap</h1>
+                <h1 class="masthead-heading text-uppercase mb-0">Front End Web Developer</h1>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -48,7 +50,7 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p>
+                <p class="masthead-subheading font-weight-light mb-0">Current Full Stack Developer Student at UNC Chapel Hill</p>
             </div>
         </header>
         <!-- Portfolio Section-->
@@ -66,20 +68,18 @@
                 <div class="row justify-content-center">
                     <!-- Portfolio Item 1-->
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">Inspired Meals 4 You</div>
                             </div>
-                            <a href="https://github.com/AnthonyPlanisek/Project-1">
                             <img class="img-fluid" src="assets\img\portfolio\medium_healthy-food.png" alt="..." />
-                            </a>
                         </div>
                     </div>
                     <!-- Portfolio Item 2-->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">Work Day Scheduler</div>
                             </div>
                             <img class="img-fluid" src="assets\img\portfolio\Using-Weekly-Planner-for-Goal-Setting-400x299.png" alt="..." />
                         </div>
@@ -88,7 +88,7 @@
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">Weather Dashboard</div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
                         </div>
@@ -97,7 +97,7 @@
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">COMNG SOON!</div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/game.png" alt="..." />
                         </div>
@@ -106,7 +106,7 @@
                     <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">COMNG SOON!</div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="..." />
                         </div>
@@ -115,7 +115,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">COMNG SOON!</div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="..." />
                         </div>
@@ -127,7 +127,7 @@
         <section class="page-section bg-primary text-white mb-0" id="about">
             <div class="container">
                 <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-white">About Me</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -136,8 +136,14 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
+                    <div class="col-lg-4 ms-auto"><p class="lead">I have always had a passion for the environment and for the fine arts. During my time at UNC Chapel Hill as an undergrad I studied Human Geography and minored in Environmental Studies. I then went to Pratt Institute in Brooklyn, NY for my masters. There I studied Art and Design History with a focus in Ancient Roman and Greek art and Conservation Science.</p>
+                        <p p class="lead">Since graduating from Pratt in December 2013, I have worked in many different industries and lived and studied in multiple countries. 
+                        During the Covid-19 pandemic I lost my full-time position as a manager and instructor for a yoga studio and was no longer able to travel for my consulting position with Pratt Institute.</p>
+                        </p></div>
+                    <div class="col-lg-4 me-auto"><p class="lead">I decided I wanted to try something new and took a basic python coding course. With the confidence from this course, I decided to enroll in the Full Stack Web Development Boot Camp at UNC Chapel Hill.</p>
+                        <p class="lead">The program runs from March to September 2021 and we have moved from focusing on Front-end to Back-end development. Though a quick pace and frustrating at times, I have really enjoyed learning the front-end languages such as HTML, CSS, JavaScript, Bootstrap, jQuery and I’m excited about node.js and everything to come!</p>
+                        <p class="lead">I'm looking forward to this new career path and all it has to offer!
+                        </p></div>
                 </div>
                 <!-- About Section Button-->
                 <div class="text-center mt-4">
@@ -225,26 +231,30 @@
         </div>
         <!-- Portfolio Modals-->
         <!-- Portfolio Modal 1-->
-        <!-- <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                     <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
                     <div class="modal-body text-center pb-5">
                         <div class="container">
                             <div class="row justify-content-center">
-                                <div class="col-lg-8"> -->
+                                <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <!-- <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2> -->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Inspired Meals 4 You</h2>
                                     <!-- Icon Divider-->
-                                    <!-- <div class="divider-custom">
+                                    <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
-                                    </div> -->
+                                    </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <!-- <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." /> -->
+                                    <img class="img-fluid rounded mb-5" src="assets\img\portfolio\InspiredMeals4uHomePage.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <!-- <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-4">Inspired Meals 4 You is the first group project I worked on in UNC-CH's Full Stack Bootcamp. We created a webpage that took 3 parameter inputs from the user: daily calorie goal, foods to exclude and meal preference to create a weekly meal plan for the user. Each day has three meals, breakfast, lunch and dinner, and the prep/cook time, serving sizes, instructions, ingredients and title are given for each recipe. The user can also save the recipes they enjoy to a favorites page.</p><p class="mb-4">The APIs used are: the spoonacular Nutrition, Recipe and Food API and Quotes Inspirational Quotes Motivational Quotes API.</p><p class="mb-4">My main roles were to create the opening page' and favorites pages' html and js files. I also helped with the js on the main page that involved using the local storage to connect to the spoonacular Nutrition, Recipe and Food API to use the 3 parameteres collected on the opening page to get our weekly recipes and the name and webpages for our favorites list page.</p>
+                                    <a href="https://github.com/AnthonyPlanisek/Project-1" class="btn btn-primary" role="button" data-bs-dismiss="modal">
+                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                        Github Page
+                                    </a>
                                     <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
@@ -255,28 +265,28 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
         <!-- Portfolio Modal 2-->
-        <!-- <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                     <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
                     <div class="modal-body text-center pb-5">
                         <div class="container">
                             <div class="row justify-content-center">
-                                <div class="col-lg-8"> -->
+                                <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <!-- <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2> -->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
                                     <!-- Icon Divider-->
-                                    <!-- <div class="divider-custom">
+                                    <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
-                                    </div> -->
+                                    </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <!-- <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." /> -->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <!-- <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                     <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
@@ -287,28 +297,28 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
         <!-- Portfolio Modal 3-->
-        <!-- <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                     <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
                     <div class="modal-body text-center pb-5">
                         <div class="container">
                             <div class="row justify-content-center">
-                                <div class="col-lg-8"> -->
+                                <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <!-- <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2> -->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
                                     <!-- Icon Divider-->
-                                    <!-- <div class="divider-custom">
+                                    <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
-                                    </div> -->
-                                    <!-- Portfolio Modal - Image-->
-                                    <!-- <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." /> -->
-                                    <!-- Portfolio Modal - Text-->
-                                    <!-- <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    </div>
+                                    <!-- Portfolio Modal - Image -->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
+                                    <!-- Portfolio Modal - Text -->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                     <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
@@ -319,7 +329,7 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
         <!-- Portfolio Modal 4-->
         <!-- <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
             <div class="modal-dialog modal-xl">
