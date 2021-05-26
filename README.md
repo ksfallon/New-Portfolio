@@ -1,7 +1,9 @@
 # New-Portfolio
 https://ksfallon.github.io/New-Portfolio/
 
-I used a premade bootstrap portfolio page to create my portfolio. It is Start Bootstrap - Freelancer v7.0.0 (https://startbootstrap.com/theme/freelancer).
+I referenced a premade bootstrap portfolio page to create my portfolio. It is Start Bootstrap - Freelancer v7.0.0 (https://startbootstrap.com/theme/freelancer).
+
+I needed to change around different sections of the HTML, create my own CSS and get ride of the JS to create my personal page. But the way the Start Bootstrap created the modals I really liked, so I kept alot of that HTML code and mainly tweeked colors, pictures, and more.
 
 ## NAV BAR section
 
