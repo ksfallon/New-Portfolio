@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    background: #8c96d7;
+    color: hsl(231, 15%, 18%);
+    font-size: 25px;
+}
+
+.navbar-brand {
+    font-size: 45px;
+}
+
+.navbar ul li {
+    display: flex;
+    justify-content: space-evenly;
+    
+  } 
