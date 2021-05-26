@@ -10,432 +10,258 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <!-- <link href="css/styles.css" rel="stylesheet" /> -->
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg bg-info text-uppercase fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand" href="#page-top">Katelin Fallon</a>
-                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About Me</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href='./assets/Katelin Fallon 2021 CV.pdf' target='_blank'>Resume</a></li>
-                    </ul>
+        <link href="./css/style.css" rel="stylesheet" />
+    <body>
+      <section id="nav-return">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#nav-return">Katelin Fallon</a>
+            <button class="navbar-toggler font-weight-bold" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse w-100 order-3 dual-collapse2" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item p-2">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item p-2">
+                  <a class="nav-link"  href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item p-2">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item p-2">
+                    <a class="nav-link"  href='./assets/Katelin Fallon 2021 CV.pdf' target='_blank'>Resume</a>
+                </li>
+              </ul>
+            </div>
+        </nav> 
+      </section>
+
+      <section id="about">
+          <div class="container bg-info">
+            <div class="row p-3 justify-content-center">
+              <img class="about-me-avatar rounded-circle mb-5 img-thumbnail" src="assets\Athens pic.jpeg" alt="..." />
+            </div>
+            <div class="row justify-content-center">
+                <h1 class="page-section-heading header1 text-center"><i class="fas fa-long-arrow-alt-right"></i></i> About Me <i class="fas fa-long-arrow-alt-left"></i></h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 p-4 ms-auto text-white"><p class="lead">I have always had a passion for the environment and for the fine arts. During my time at UNC Chapel Hill as an undergrad I studied Human Geography and minored in Environmental Studies. I then went to Pratt Institute in Brooklyn, NY for my masters. There I studied Art and Design History with a focus in Ancient Roman and Greek art and Conservation Science.</p>
+                    <p p class="lead">Since graduating from Pratt in December 2013, I have worked in many different industries and lived and studied in multiple countries. 
+                    During the Covid-19 pandemic I lost my full-time position as a manager and instructor for a yoga studio and was no longer able to travel for my consulting position with Pratt Institute.</p>
+                    </p></div>
+                <div class="col-lg-6 p-4 me-auto text-white"><p class="lead">I decided I wanted to try something new and took a basic python coding course. With the confidence from this course, I decided to enroll in the Full Stack Web Development Boot Camp at UNC Chapel Hill.</p>
+                    <p class="lead">The program runs from March to September 2021 and we have moved from focusing on Front-end to Back-end development. Though a quick pace and frustrating at times, I have really enjoyed learning the front-end languages such as HTML, CSS, JavaScript, Bootstrap, jQuery and I’m excited about node.js and everything to come!</p>
+                    <p class="lead">I'm looking forward to this new career path and all it has to offer!
+                    </p></div>
+            </div>
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <div class="container" id = "portfolio-section">
+            <div class="row justify-content-center">
+                <h1 class="page-section-heading text-center text-black p-4"><i class="fas fa-long-arrow-alt-right"></i></i> Portfolio <i class="fas fa-long-arrow-alt-left"></i></h1>
+            </div>
+        <!-- Portfolio Grid Items-->
+            <div class="row justify-content-center pb-5">
+                <!-- Portfolio Project 1-->
+                <div class="expand col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">Inspired Meals 4 You</div>
+                        </div>
+                        <img class="img-fluid" src="assets\img\portfolio\medium_healthy-food.png" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Project 2-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">Work Day Scheduler</div>
+                        </div>
+                        <img class="img-fluid" src="assets\img\portfolio\Using-Weekly-Planner-for-Goal-Setting-400x299.png" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Project 3-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">Weather Dashboard</div>
+                        </div>
+                        <img class="img-fluid" src="assets\img\portfolio\drops.jpg" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Project 4-->
+                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">COMNG SOON!</div>
+                        </div>
+                        <img class="img-fluid" src="assets\img\portfolio\astronomyProject.jpg" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Project 5-->
+                <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">COMNG SOON!</div>
+                        </div>
+                        <img class="img-fluid" src="assets\img\portfolio\VanGoghSketch.png" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Project 6-->
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">COMNG SOON!</div>
+                        </div>
+                        <img class="img-fluid" src="assets\img\portfolio\KatesBoutique.jpg" alt="..." />
+                    </div>
                 </div>
             </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead bg-info text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar rounded-circle mb-5" src="assets\Athens pic.jpeg" alt="..." />
-                <!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">Front End Web Developer</h1>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fa fa-paint-brush" aria-hidden="true"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Current Full Stack Developer Student at UNC Chapel Hill</p>
+        </div>
+    </section>
+
+        <section id="contact">
+            <div class="container bg-info">
+            <div class="row justify-content-center">
+                <h1 class="page-section-heading header1 text-center pb-4 pt-4"><i class="fas fa-long-arrow-alt-right"></i></i> Contact Me <i class="fas fa-long-arrow-alt-left"></i></h1>
             </div>
-        </header>
-        <!-- Portfolio Section-->
-        <section class="page-section portfolio" id="portfolio">
-            <div class="container">
-                <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fa fa-paint-brush" aria-hidden="true"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Grid Items-->
                 <div class="row justify-content-center">
-                    <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">Inspired Meals 4 You</div>
-                            </div>
-                            <img class="img-fluid" src="assets\img\portfolio\medium_healthy-food.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">Work Day Scheduler</div>
-                            </div>
-                            <img class="img-fluid" src="assets\img\portfolio\Using-Weekly-Planner-for-Goal-Setting-400x299.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">Weather Dashboard</div>
-                            </div>
-                            <img class="img-fluid" src="assets\img\portfolio\drops.jpg" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 4-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">COMNG SOON!</div>
-                            </div>
-                            <img class="img-fluid" src="assets\img\portfolio\astronomyProject.jpg" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 5-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">COMNG SOON!</div>
-                            </div>
-                            <img class="img-fluid" src="assets\img\portfolio\VanGoghSketch.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 6-->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">COMNG SOON!</div>
-                            </div>
-                            <img class="img-fluid" src="assets\img\portfolio\KatesBoutique.jpg" alt="..." />
-                        </div>
-                    </div>
+                    <h4 class="contact-titles text-white text-uppercase mb-4">Around the Web</h4>
+                </div>
+                <div class="row justify-content-center p-2">
+                    <a class="btn btn-outline-dark btn-social mx-1" href="https://github.com/ksfallon" target="_blank"><i class="fab fa-github"></i></a>
+                    <a class="btn btn-outline-dark btn-social mx-1" href="https://www.linkedin.com/in/katelin-fallon-359b88ab/" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-dark btn-social mx-1" href="mailto:fallon.katelin@gmail.com" target="_blank" ><i class="far fa-envelope"></i></a>
+                    <a class="btn btn-outline-dark btn-social mx-1" href="https://www.instagram.com/kateshefall/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="row justify-content-center">
+                    <h4 class="contact-titles text-white text-uppercase m-4">Need More Info?</h4>
+                </div>
+                <div class="row justify-content-center"></div>
+                    <p class="need-more-text lead pb-5 text-center text-white">
+                        Feel free to contact me on any of the web links.
+                        <br>
+                        I look forward to hearing from you!
+                        <br>
+                    </p>
                 </div>
             </div>
         </section>
-        <!-- About Section-->
-        <section class="page-section bg-secondary text-white mb-0" id="about">
-            <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">About Me</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fa fa-paint-brush" aria-hidden="true"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">I have always had a passion for the environment and for the fine arts. During my time at UNC Chapel Hill as an undergrad I studied Human Geography and minored in Environmental Studies. I then went to Pratt Institute in Brooklyn, NY for my masters. There I studied Art and Design History with a focus in Ancient Roman and Greek art and Conservation Science.</p>
-                        <p p class="lead">Since graduating from Pratt in December 2013, I have worked in many different industries and lived and studied in multiple countries. 
-                        During the Covid-19 pandemic I lost my full-time position as a manager and instructor for a yoga studio and was no longer able to travel for my consulting position with Pratt Institute.</p>
-                        </p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">I decided I wanted to try something new and took a basic python coding course. With the confidence from this course, I decided to enroll in the Full Stack Web Development Boot Camp at UNC Chapel Hill.</p>
-                        <p class="lead">The program runs from March to September 2021 and we have moved from focusing on Front-end to Back-end development. Though a quick pace and frustrating at times, I have really enjoyed learning the front-end languages such as HTML, CSS, JavaScript, Bootstrap, jQuery and I’m excited about node.js and everything to come!</p>
-                        <p class="lead">I'm looking forward to this new career path and all it has to offer!
-                        </p></div>
-                </div>
-            </div>
-        </section>
-        <!-- Contact Section-->
-        <section class="page-section" id="contact">
-            <div class="container">
-                <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fa fa-paint-brush" aria-hidden="true"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Contact Section Form-->
-                <!-- <div class="row justify-content-center">
-                    <div class="col-lg-8 col-xl-7">
-                        <form>
-                            <div class="form-floating">
-                                <input class="form-control" id="inputName" type="text" placeholder="Enter your name..." />
-                                <label for="inputName">Name</label>
-                            </div>
-                            <div class="form-floating">
-                                <input class="form-control" id="inputEmail" type="email" placeholder="Enter your email..." />
-                                <label for="inputEmail">Email address</label>
-                            </div>
-                            <div class="form-floating">
-                                <input class="form-control" id="inputPhone" type="tel" placeholder="Enter your phone number..." />
-                                <label for="inputPhone">Phone Number</label>
-                            </div>
-                            <div class="form-floating">
-                                <textarea class="form-control" id="inputMessage" placeholder="Enter your message here..." style="height: 12rem"></textarea>
-                                <label for="inputMessage">Message</label>
-                            </div>
-                            <br />
-                            <button class="btn btn-primary btn-xl" type="submit">Send</button>
-                        </form>
-                        
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- Footer-->
-        <footer class="footer text-center bg-info text-secondary">
-            <div class="container">
-                <div class="row">
-                    <!-- Footer Location-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Current Location</h4>
-                        <p class="lead mb-0">
-                            Durham, NC 27701
-                        </p>
-                    </div>
-                    <!-- Footer Social Icons-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/ksfallon" target="_blank"><i class="fab fa-github"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/katelin-fallon-359b88ab/" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="mailto:fallon.katelin@gmail.com" target="_blank" ><i class="far fa-envelope"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/kateshefall/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
-                    </div>
-                    <!-- Footer About Text-->
-                    <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">Need More Info?</h4>
-                        <p class="lead mb-0">
-                            Feel free to contact me on any of the web links. 
-                            <br>
-                            I look forward to hearing from you!
-                        </p>
-                    </div>
-                </div>
+
+        <footer class="card text-center">
+            <div class="card-body">
+              <a class="footer-link text-uppercase mb-4" href="#nav-return">Return to the Top of the page</a>
             </div>
         </footer>
-        <!-- Copyright Section-->
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Your Website 2021</small></div>
-        </div>
-        <!-- Portfolio Modals-->
-        <!-- Portfolio Modal 1-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Inspired Meals 4 You</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
+
+                <!-- Portfolio Modal 1-->
+                <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body text-center pb-5 bg-dark">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8">
+                                            <!-- Portfolio Modal - Title-->
+                                            <h2 class="portfolio-modal-title text-white text-uppercase mb-4">Inspired Meals 4 You</h2>
+                                            <!-- Portfolio Modal - Image-->
+                                            <img class="modal-image rounded mb-5" src="assets\img\portfolio\InspiredMeals4uHomePage.png" alt="..." />
+                                            <!-- Portfolio Modal - Text-->
+                                            <p class="modal-text mb-3 text-white">Inspired Meals 4 You is the first group project I worked on in UNC-CH's Full Stack Bootcamp. We created a webpage that took 3 parameter inputs from the user: daily calorie goal, foods to exclude and meal preference to create a weekly meal plan for the user. Each day has three meals, breakfast, lunch and dinner, and the prep/cook time, serving sizes, instructions, ingredients and title are given for each recipe. The user can also save the recipes they enjoy to a favorites page.</p>
+                                            <p class="modal-text mb-3 text-white">The APIs used are: the spoonacular Nutrition, Recipe and Food API and Quotes Inspirational Quotes Motivational Quotes API.</p>
+                                            <p class="modal-text mb-3 text-white">My main roles were to create the opening page' and favorites pages' html and js files. I also helped with the js on the main page that involved using the local storage to connect to the spoonacular Nutrition, Recipe and Food API to use the 3 parameteres collected on the opening page to get our weekly recipes and the name and webpages for our favorites list page.</p>
+                                            <div class="row justify-content-center">
+                                                <a href="https://github.com/AnthonyPlanisek/Project-1" target="_blank" class="btn btn-info m-1" role="button">
+                                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                                    Github Page
+                                                </a>
+                                                <button class="btn btn-info m-1" href="#!" data-bs-dismiss="modal">
+                                                    <i class="fas fa-times fa-fw"></i>
+                                                    Close Window
+                                                </button>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets\img\portfolio\InspiredMeals4uHomePage.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Inspired Meals 4 You is the first group project I worked on in UNC-CH's Full Stack Bootcamp. We created a webpage that took 3 parameter inputs from the user: daily calorie goal, foods to exclude and meal preference to create a weekly meal plan for the user. Each day has three meals, breakfast, lunch and dinner, and the prep/cook time, serving sizes, instructions, ingredients and title are given for each recipe. The user can also save the recipes they enjoy to a favorites page.</p>
-                                    <p class="mb-4">The APIs used are: the spoonacular Nutrition, Recipe and Food API and Quotes Inspirational Quotes Motivational Quotes API.</p>
-                                    <p class="mb-4">My main roles were to create the opening page' and favorites pages' html and js files. I also helped with the js on the main page that involved using the local storage to connect to the spoonacular Nutrition, Recipe and Food API to use the 3 parameteres collected on the opening page to get our weekly recipes and the name and webpages for our favorites list page.</p>
-                                    <a href="https://github.com/AnthonyPlanisek/Project-1" target="_blank" class="btn btn-primary" role="button">
-                                        <i class="fa fa-check" aria-hidden="true"></i>
-                                        Github Page
-                                    </a>
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 2-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Work Day Scheduler</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
+                        <!-- Portfolio Modal 2-->
+                        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-body text-center pb-5 bg-dark">
+                                        <div class="container">
+                                            <div class="row justify-content-center">
+                                                <div class="col-lg-8">
+                                                    <!-- Portfolio Modal - Title-->
+                                                    <h2 class="portfolio-modal-title text-white text-uppercase mb-4">Work Day Scheduler</h2>
+                                                    <!-- Portfolio Modal - Image-->
+                                                    <img class="modal-image rounded mb-5" src="assets\img\portfolio\WorkDayScheduler.png" alt="..." />
+                                                    <!-- Portfolio Modal - Text-->
+                                                    <p class="modal-text mb-3 text-white">Work Day Scheduler was a homework assignment with UNC Chapel Hill Full Stack Boot Camp. I created a work day calendar that was separated by hour, with an events input area and a button to save the input. There are nine hours on the calendar, 9am through 5pm, and the input for each hour will not be removed upon refreshing the page. The only way the event can change is if the user decides to change the input information. Depending on the hour of the day the event input background color changes based on the current time.</p>
+                                                    <p class="modal-text mb-3 text-white">I created the page using bootstrap themes with additional css. Moment.js is used to get the current time in military time. By comparing the individual hour ids, which were based on military time, to the current time in a for loop with if, else if, and else statements, I was able to append new background color classes to the specific Ids. The colors are grey for past, red for present and green for future events.</p>
+                                                    <p class="modal-text mb-3 text-white">Local Storage was used to store the event input in a key value pair. Each key is named after the specific hours Id. The event is then appended to the correct event using a for loop, to get the correct values from local storage and place them under the correct input id that matched the key name.</p>
+                                                    <a href="https://github.com/ksfallon/Work-Day-Scheduler" target="_blank" class="btn btn-info m-1" role="button">
+                                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                                        Github Page
+                                                    </a>
+                                                    <button class="btn btn-info m-1" href="#!" data-bs-dismiss="modal">
+                                                        <i class="fas fa-times fa-fw"></i>
+                                                        Close Window
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets\img\portfolio\WorkDayScheduler.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Work Day Scheduler was a homework assignment with UNC Chapel Hill Full Stack Boot Camp. I created a work day calendar that was separated by hour, with an events input area and a button to save the input. There are nine hours on the calendar, 9am through 5pm, and the input for each hour will not be removed upon refreshing the page. The only way the event can change is if the user decides to change the input information. Depending on the hour of the day the event input background color changes based on the current time.</p>
-                                    <p class="mb-4">I created the page using bootstrap themes with additional css. Moment.js is used to get the current time in military time. By comparing the individual hour ids, which were based on military time, to the current time in a for loop with if, else if, and else statements, I was able to append new background color classes to the specific Ids. The colors are grey for past, red for present and green for future events.</p>
-                                    <p class="mb-4">Local Storage was used to store the event input in a key value pair. Each key is named after the specific hours Id. The event is then appended to the correct event using a for loop, to get the correct values from local storage and place them under the correct input id that matched the key name.</p>
-                                    <a href="https://github.com/ksfallon/Work-Day-Scheduler" target="_blank" class="btn btn-primary" role="button">
-                                        <i class="fa fa-check" aria-hidden="true"></i>
-                                        Github Page
-                                    </a>
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 3-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Weather Dashboard</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
+                        <!-- Portfolio Modal 3-->
+                        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-body text-center pb-5 bg-dark">
+                                        <div class="container">
+                                            <div class="row justify-content-center">
+                                                <div class="col-lg-8">
+                                                    <!-- Portfolio Modal - Title-->
+                                                    <h2 class="portfolio-modal-title text-white text-uppercase mb-4">Weather Dashboard</h2>
+                                                    <!-- Portfolio Modal - Image -->
+                                                    <img class="modal-image rounded mb-5" src="assets\img\portfolio\WeatherDashboard.png" alt="..." />
+                                                    <!-- Portfolio Modal - Text -->
+                                                    <p class="modal-text mb-3 text-white">Weather Dashboard was a homework assignment with UNC Chapel Hill Full Stack Boot Camp. The user inputs a city and they are provided with the current weather information as well as a five-day forecast. Also, any cities that are searched appear as buttons with their names on it below the main search. Now these previous searches become their own city-specific search buttons.</p>
+                                                    <p class="modal-text mb-3 text-white">I used the Open Weather Map API to gather the information for this page. First, I used the geolocate of the city from the input to get the latitude and longitude of the city’s location. Then these two parameters are plugged into another Open Weather Map API that uses latitude and longitude to provide forecast information.</p>
+                                                    <p class="modal-text mb-3 text-white">With the response from these second API, I could gather the information needed for the current day and the next 5 days: temperature, wind speed, humidity and an icon that represented the current type of weather. The current day also included the UV index and in JavaScript a for loop is used to change the UV background color based on the number. Moment.js was used to give the current and the five day forecast dates. </p>
+                                                    <a href="https://github.com/ksfallon/Weather-Dashboard" target="_blank" class="btn btn-info m-1" role="button">
+                                                        <i class="fa fa-check" aria-hidden="true"></i>
+                                                        Github Page
+                                                    </a>
+                                                    <button class="btn btn-info m-1" href="#!" data-bs-dismiss="modal">
+                                                        <i class="fas fa-times fa-fw"></i>
+                                                        Close Window
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <!-- Portfolio Modal - Image -->
-                                    <img class="img-fluid rounded mb-5" src="assets\img\portfolio\WeatherDashboard.png" alt="..." />
-                                    <!-- Portfolio Modal - Text -->
-                                    <p class="mb-4">Weather Dashboard was a homework assignment with UNC Chapel Hill Full Stack Boot Camp. The user inputs a city and they are provided with the current weather information as well as a five-day forecast. Also, any cities that are searched appear as buttons with their names on it below the main search. Now these previous searches become their own city-specific search buttons.</p>
-                                    <p class="mb-4">I used the Open Weather Map API to gather the information for this page. First, I used the geolocate of the city from the input to get the latitude and longitude of the city’s location. Then these two parameters are plugged into another Open Weather Map API that uses latitude and longitude to provide forecast information.</p>
-                                    <p class="mb-4">With the response from these second API, I could gather the information needed for the current day and the next 5 days: temperature, wind speed, humidity and an icon that represented the current type of weather. The current day also included the UV index and in JavaScript a for loop is used to change the UV background color based on the number. Moment.js was used to give the current and the five day forecast dates. </p>
-                                    <a href="https://github.com/ksfallon/Weather-Dashboard" target="_blank" class="btn btn-primary" role="button">
-                                        <i class="fa fa-check" aria-hidden="true"></i>
-                                        Github Page
-                                    </a>
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 4-->
-        <!-- <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8"> -->
-                                    <!-- Portfolio Modal - Title-->
-                                    <!-- <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2> -->
-                                    <!-- Icon Divider-->
-                                    <!-- <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div> -->
-                                    <!-- Portfolio Modal - Image-->
-                                    <!-- <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." /> -->
-                                    <!-- Portfolio Modal - Text-->
-                                    <!-- <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- Portfolio Modal 5-->
-        <!-- <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8"> -->
-                                    <!-- Portfolio Modal - Title-->
-                                    <!-- <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2> -->
-                                    <!-- Icon Divider-->
-                                    <!-- <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div> -->
-                                    <!-- Portfolio Modal - Image-->
-                                    <!-- <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." /> -->
-                                    <!-- Portfolio Modal - Text-->
-                                    <!-- <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- Portfolio Modal 6-->
-        <!-- <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8"> -->
-                                    <!-- Portfolio Modal - Title-->
-                                    <!-- <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2> -->
-                                    <!-- Icon Divider-->
-                                    <!-- <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div> -->
-                                    <!-- Portfolio Modal - Image-->
-                                    <!-- <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." /> -->
-                                    <!-- Portfolio Modal - Text-->
-                                    <!-- <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- Bootstrap core JS-->
+    </body>
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        <!-- <script src="js/scripts.js"></script> -->
     </body>
 </html>

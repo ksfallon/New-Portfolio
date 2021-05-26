@@ -82,3 +82,18 @@ h1 {
 .need-more-text {
     font-size: 25px;
 }
+
+.card-body {
+    background: #8c96d7;
+    font-size: 40px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    color: hsl(231, 15%, 18%);
+}
