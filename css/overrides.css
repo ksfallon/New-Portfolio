@@ -1,3 +1,7 @@
+* {
+    
+}
+/* NAVBAR SECTION */
 .navbar {
     display: flex;
     background: #8c96d7;
@@ -15,13 +19,17 @@
     
   }
 
+  /* ABOUT ME SECTION */
+
 .about-me-avatar {
     display: inline-flex;
-    height: 316px;;
+    height: 316px;
     /* width: 143.5; */
     /* justify-content: left; */
     /* margin: 5px; */
 }
+/* PORTFOLIO SECTION */
+
 #portfolio-section {
     background: hsl(231, 15%, 18%);
     color: #8c96d7;
@@ -34,12 +42,8 @@ h1 {
     color: hsl(231, 15%, 18%); 
 }
 
-.portfolio-item {
-    background-color: grey;
-  }
-
 .portfolio-item :hover {
-    opacity: 20%;
+    opacity: 40%;
   }
 
   .portfolio-item-caption-content {
@@ -48,4 +52,33 @@ h1 {
     position: absolute;
     top: 75%;
     left: center;
+}
+
+/* MODAL SECTION */
+.modal-image  {
+    display: inline-flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    /* margin: 5px; */
+}
+
+.modal-text {
+    font-size: 19px;
+}
+
+/* CONTACT SECTION */
+
+.contact-titles {
+    font-size: 37px;
+    /* color: white; */
+}
+
+.btn-social {
+    font-size: 40px;
+    border: none;
+}
+
+.need-more-text {
+    font-size: 25px;
 }
