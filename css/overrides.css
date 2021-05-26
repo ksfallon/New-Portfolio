@@ -13,4 +13,23 @@
     display: flex;
     justify-content: space-evenly;
     
-  } 
+  }
+
+.about-me-avatar {
+    display: inline-flex;
+    height: 316px;;
+    /* width: 143.5; */
+    /* justify-content: left; */
+    /* margin: 5px; */
+}
+#portfolio-section {
+    background: hsl(231, 15%, 18%);
+    color: #8c96d7;
+}
+h1 {
+    font-size: 70px;
+}
+
+.header1 {
+    color: hsl(231, 15%, 18%); 
+}
