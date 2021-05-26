@@ -26,3 +26,6 @@ In the portfolio section of the website there is a section for 6 pictures with l
 
 ## ABOUT ME section
 ## CONTACT section
+
+---
+Licensed under the [MIT License](https://choosealicense.com/licenses/mit/#).
