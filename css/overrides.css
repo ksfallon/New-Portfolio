@@ -33,3 +33,19 @@ h1 {
 .header1 {
     color: hsl(231, 15%, 18%); 
 }
+.portfolio-item {
+    background: #8c96d7;
+    /* opacity: 0; */
+}
+.portfolio-item-caption-content {
+    background: hsl(231, 15%, 18%);
+    position: absolute;
+    top: 75%;
+    left: 33%;
+    transition: all 0.2s ease-in-out;
+    /* opacity: 0; */
+}
+
+.portfolio-item :hover {
+    transform: scale(1.2);
+  }
