@@ -1,11 +1,13 @@
-* {
-    
+:root {
+    --light: #8c96d7;
+    --dark: hsl(231, 15%, 18%);
 }
+
 /* NAVBAR SECTION */
 .navbar {
     display: flex;
-    background: #8c96d7;
-    color: hsl(231, 15%, 18%);
+    background: var(--light);
+    color: var(--dark);
     font-size: 25px;
 }
 
@@ -31,15 +33,15 @@
 /* PORTFOLIO SECTION */
 
 #portfolio-section {
-    background: hsl(231, 15%, 18%);
-    color: #8c96d7;
+    background: var(--dark);
+    color: var(--light);
 }
 h1 {
     font-size: 70px;
 }
 
 .header1 {
-    color: hsl(231, 15%, 18%); 
+    color: var(--dark);
 }
 
 .portfolio-item :hover {
@@ -47,7 +49,7 @@ h1 {
   }
 
   .portfolio-item-caption-content {
-    background: hsl(231, 15%, 18%);
+    background: var(--dark);
     font-size: 25px;
     position: absolute;
     top: 75%;
@@ -79,12 +81,13 @@ h1 {
     border: none;
 }
 
+/* FOOTER SECTION */
 .need-more-text {
     font-size: 25px;
 }
 
 .card-body {
-    background: #8c96d7;
+    background: var(--light);
     font-size: 40px;
 }
 
@@ -95,5 +98,5 @@ h1 {
 
 .footer-link:hover {
     text-decoration: none;
-    color: hsl(231, 15%, 18%);
+    color: var(--dark);
 }
