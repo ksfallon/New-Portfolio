@@ -99,30 +99,30 @@
                     </div>
                 </div>
                 <!-- Portfolio Project 4-->
-                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                <div class="col-md-6 col-lg-4">
                     <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">Traveler's Landing: NC</div>
+                        </div>
+                        <img class="img-fluid" src="assets\img\portfolio\ncmap.jpg" alt="..." />
+                    </div>
+                </div>
+                <!-- Portfolio Project 5-->
+                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">COMNG SOON!</div>
                         </div>
                         <img class="img-fluid" src="assets\img\portfolio\astronomyProject.jpg" alt="..." />
                     </div>
                 </div>
-                <!-- Portfolio Project 5-->
-                <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white">COMNG SOON!</div>
-                        </div>
-                        <img class="img-fluid" src="assets\img\portfolio\VanGoghSketch.png" alt="..." />
-                    </div>
-                </div>
                 <!-- Portfolio Project 6-->
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
                     <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">COMNG SOON!</div>
                         </div>
-                        <img class="img-fluid" src="assets\img\portfolio\fashion.jpg" alt="..." />
+                        <img class="img-fluid" src="assets\img\portfolio\VanGoghSketch.png" alt="..." />
                     </div>
                 </div>
             </div>
@@ -203,6 +203,8 @@
                         </div>
                     </div>
                 </div>
+
+                
                         <!-- Portfolio Modal 2-->
                         <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
                             <div class="modal-dialog modal-lg">
@@ -273,6 +275,43 @@
                                 </div>
                             </div>
                         </div>
+                 <!-- Portfolio Modal 4-->
+                <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body text-center pb-5 bg-dark">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8">
+                                            <!-- Portfolio Modal - Title-->
+                                            <h2 class="portfolio-modal-title text-white text-uppercase mb-4">Traveler's Landing: NC</h2>
+                                            <!-- Portfolio Modal - Image-->
+                                            <img class="modal-image rounded mb-5" src="assets\img\portfolio\Travelers_landing.png" alt="..." />
+                                            <!-- Portfolio Modal - Text-->
+                                            <p class="modal-text mb-3 text-white">Traveler's NC is the second group project I worked on in UNC-CH's Full Stack Bootcamp. We created a webpage that allows users to create and save trips to different cities in North Carolina. Once a user is logged in they can create a new trip! First they enter the city they want to visit. And then they choose from a drop down menu of attractions in that area: museums, parks, restaurants and trails. After they choose an attraction, for example "museums", a list of all of the museums in this area is generated. If the user sees one they are interested in visiting on their trip, it can be saved to their "Saved Trips" page based on the city.</p>
+                                            <p class="modal-text mb-3 text-white">We used Google Places API to generate the information about the cities and the attractions. MySQL is used to store the user information and their saved trips data. The website uses cookies to ensure a secure login.</p>
+                                            <p class="modal-text mb-3 text-white">I worked mainly on the backend and database. I worked on the api routes, the connectors, and the app.js files. I also worked on the models, connecting the google api through the backend to the frontend, and generating the google searches on the website.</p>
+                                            <div class="row justify-content-center">
+                                                <a href="https://github.com/CSS-Crocodiles/Project_2/tree/main" target="_blank" class="btn btn-info m-1" role="button">
+                                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                                    Github Page
+                                                </a>
+                                                <a href="https://dream-vacation2021.herokuapp.com/" target="_blank" class="btn btn-info m-1" role="button">
+                                                    <i class="fa fa-check" aria-hidden="true"></i>
+                                                    Website
+                                                </a>
+                                                <button class="btn btn-info m-1" href="#!" data-bs-dismiss="modal">
+                                                    <i class="fas fa-times fa-fw"></i>
+                                                    Close Window
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
     </body>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
